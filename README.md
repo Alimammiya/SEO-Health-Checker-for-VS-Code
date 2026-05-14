@@ -1,0 +1,1 @@
+# SEO-Health-Checker-for-VS-Code
