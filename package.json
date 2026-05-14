@@ -1,0 +1,53 @@
+{
+  "name": "seo-health-checker",
+  "displayName": "SEO Health Checker",
+  "description": "Analyze on-page SEO health for HTML documents in Visual Studio Code.",
+  "version": "0.0.1",
+  "publisher": "alimammiya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alimammiya/seo-health-checker.git"
+  },
+  "icon": "media/icon.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Linters",
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:seoHealthChecker.analyzeCurrentDocument",
+    "onLanguage:html",
+    "onLanguage:php",
+    "onLanguage:vue",
+    "onLanguage:svelte",
+    "onLanguage:astro",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ],
+  "main": "./dist/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "test": "npm run compile && node --test test/*.test.js",
+    "watch": "tsc -w -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.90.0",
+    "@vscode/vsce": "^3.0.0",
+    "typescript": "^5.5.0"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "seoHealthChecker.analyzeCurrentDocument",
+        "title": "SEO Health Checker: Analyze Current Document",
+        "category": "SEO Health Checker"
+      }
+    ]
+  }
+}
