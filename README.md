@@ -20,6 +20,16 @@ This extension analyzes the current open web document and reports on-page SEO is
 
 GitHub: https://github.com/Alimammiya/SEO-Health-Checker-for-VS-Code.git
 
+## Other Links
+
+- Best SEO Consultant: https://alimammiya.com/
+- SEO Health Checker Official Website: https://alimammiya.com/seo-health-checker
+- GitHub: https://github.com/alimammiya
+- LinkedIn: https://www.linkedin.com/in/alimammiya/
+- Chrome Extension: https://chromewebstore.google.com/detail/hfaogcocddbcafkdeemcdphdjhllfmof
+- Firefox Add-on: https://addons.mozilla.org/en-US/firefox/addon/seo-health-checker-on-page-seo/
+- Microsoft Edge Add-on: https://microsoftedge.microsoft.com/addons/detail/seo-health-checker-onp/ebcmkdepjnafoofenamdmjdchbkcfmfa
+
 ## Usage
 
 - Open an HTML, PHP, Vue, Svelte, Astro, JSX, or TSX file in VS Code.
