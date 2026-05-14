@@ -16,6 +16,10 @@ This extension analyzes the current open web document and reports on-page SEO is
 3. Run `npm run compile`.
 4. Press `F5` to launch the extension in a development host window.
 
+## Repository
+
+GitHub: https://github.com/Alimammiya/SEO-Health-Checker-for-VS-Code.git
+
 ## Usage
 
 - Open an HTML, PHP, Vue, Svelte, Astro, JSX, or TSX file in VS Code.
